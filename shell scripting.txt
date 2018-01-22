@@ -1,0 +1,154 @@
+df -h
+$ df -h
+Filesystem            Size  Used Avail Use% Mounted on
+C:/Program Files/Git   98G   95G  3.0G  97% /
+D:                    100G  100G  247M 100% /d
+E:                    101G   99G  2.3G  98% /e
+du -h
+$ du -h
+397K    .
+find . -type d
+./.git/objects/98
+./.git/objects/9e
+./.git/objects/9f
+./.git/objects/a2
+./.git/objects/a5
+./.git/objects/a9
+./.git/objects/ac
+./.git/objects/ae
+./.git/objects/af
+./.git/objects/b1
+./.git/objects/b6
+./.git/objects/b8
+./.git/objects/b9
+./.git/objects/bb
+./.git/objects/bd
+./.git/objects/bf
+./.git/objects/c0
+./.git/objects/c1
+./.git/objects/c3
+./.git/objects/c4
+./.git/objects/c5
+./.git/objects/c6
+./.git/objects/c7
+./.git/objects/c8
+./.git/objects/c9
+./.git/objects/cb
+./.git/objects/ce
+./.git/objects/d0
+./.git/objects/d5
+./.git/objects/d6
+./.git/objects/d7
+./.git/objects/dc
+./.git/objects/dd
+./.git/objects/de
+./.git/objects/e7
+./.git/objects/ea
+./.git/objects/eb
+./.git/objects/ec
+./.git/objects/f3
+./.git/objects/f6
+./.git/objects/f7
+./.git/objects/fc
+./.git/objects/info
+./.git/objects/pack
+./.git/refs
+./.git/refs/heads
+./.git/refs/remotes
+./.git/refs/remotes/origin
+./.git/refs/tags
+./Agile
+./Samples
+./SQL
+./SQL/ProblemSet01
+./SQL/ProblemSet02
+ls *.txt
+$ ls *.txt
+Questions.txt  resultset1.txt  sample.txt
+
+tar -cvf output.tar *.txt
+$ tar -cvf output.tar *.txt
+Questions.txt
+resultset1.txt
+sample.txt
+
+find -perm -644
+$ find -perm -644
+.
+./dataSetUp.sql
+./Questions.txt
+./resultset1.txt
+./sample.txt
+./SetupInstructions.md
+./solutions.sql
+./Tables.pdf
+./tableSetUp.sql
+awk -F "," '{print $1,$2}' sample.txt
+$ awk -F "," '{print $1,$2}' sample.txt
+a monday
+b tuesday
+c wednesday
+d thursday
+e friday
+w,whoami
+$ whoami
+visalakshi
+shell
+$ echo $SHELL
+/usr/bin/bash
+env
+$ env
+USERDOMAIN=VISALAKSHI
+OS=Windows_NT
+COMMONPROGRAMFILES=C:\Program Files\Common Files
+PROCESSOR_LEVEL=6
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+CommonProgramW6432=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+FP_NO_HOST_CHECK=NO
+LANG=en_US.UTF-8
+MSYSTEM_CARCH=x86_64
+DISPLAY=needs-to-be-defined
+HOSTNAME=Lakshmanan
+PUBLIC=C:\Users\Public
+CONFIG_SITE=/mingw64/etc/config.site
+EXEPATH=C:\Program Files\Git
+MSYSTEM_CHOST=x86_64-w64-mingw32
+USERNAME=Lachu
+LOGONSERVER=\\MicrosoftAccount
+PROCESSOR_ARCHITECTURE=AMD64
+LOCALAPPDATA=C:\Users\Lachu\AppData\Local
+COMPUTERNAME=LAKSHMANAN
+SYSTEMDRIVE=C:
+USERPROFILE=C:\Users\Lachu
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+SYSTEMROOT=C:\Windows
+USERDOMAIN_ROAMINGPROFILE=LAKSHMANAN
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+MINGW_PACKAGE_PREFIX=mingw-w64-x86_64
+PWD=/c/Users/Lachu/InductionAssignments/SQL/ProblemSet01
+SSH_ASKPASS=/mingw64/libexec/git-core/git-gui--askpass
+HOME=/c/Users/Lachu
+TMP=/tmp
+MSYSTEM_PREFIX=/mingw64
+!C:=C:\Users\Lachu
+PROCESSOR_REVISION=2a07
+TMPDIR=/tmp
+PROMPT=$P$G
+NUMBER_OF_PROCESSORS=2
+ProgramW6432=C:\Program Files
+COMSPEC=C:\Windows\system32\cmd.exe
+APPDATA=C:\Users\Lachu\AppData\Roaming
+SHELL=/usr/bin/bash
+TERM=cygwin
+WINDIR=C:\Windows
+MINGW_CHOST=x86_64-w64-mingw32
+ProgramData=C:\ProgramData
+SHLVL=1
+PLINK_PROTOCOL=ssh
+ACLOCAL_PATH=/mingw64/share/aclocal:/usr/share/aclocal
+PROGRAMFILES=C:\Program Files
+MANPATH=/mingw64/share/man:/usr/local/man:/usr/share/man:/usr/man:/share/man
+ORIGINAL_TEMP=/tmp
+ORIGINAL_TMP=/tmp
+ALLUSERSPROFILE=C:\ProgramData
